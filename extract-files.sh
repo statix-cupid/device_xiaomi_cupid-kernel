@@ -15,7 +15,7 @@ echo "MY_DIR: ${MY_DIR}"
 SRC_ROOT="${MY_DIR}/../../.."
 TMP_DIR=$(mktemp -d)
 EXTRACT_KERNEL=true
-declare -a MODULE_FOLDERS=("vendor_ramdisk" "vendor_dlkm" "system_dlkm")
+declare -a MODULE_FOLDERS=("vendor_ramdisk" "vendor_dlkm")
 
 while [ "${#}" -gt 0 ]; do
     case "${1}" in
