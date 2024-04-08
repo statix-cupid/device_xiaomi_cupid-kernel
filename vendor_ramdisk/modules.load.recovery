@@ -103,7 +103,6 @@ qcom_rimps.ko
 c1dcvs_vendor.ko
 c1dcvs_scmi.ko
 bcl_pmic5.ko
-perfmgr.ko
 nfc_i2c.ko
 msm_sysstats.ko
 zsmalloc.ko
@@ -190,6 +189,7 @@ panel_event_notifier.ko
 qcom_sync_file.ko
 hung_task_enh.ko
 qfprom-sys.ko
+qcom_pm8008-regulator.ko
 qpnp-amoled-regulator.ko
 hvc_gunyah.ko
 msm_rng.ko
@@ -203,7 +203,6 @@ zram.ko
 hdcp_qseecom.ko
 qseecom-mod.ko
 perf_helper.ko
-wl2866d.ko
 qcom-i2c-pmic.ko
 sg.ko
 spi-msm-geni.ko
@@ -244,16 +243,16 @@ nt36xxx-i2c.ko
 nt36xxx-spi.ko
 goodix_core.ko
 pm8941-pwrkey.ko
-qcom-hv-haptics.ko
+aw8697-haptic.ko
 goodix_fod.ko
 i2c-msm-geni.ko
 i3c-master-msm-geni.ko
 ir-spi.ko
 qcom_ipc_lite.ko
 synx-driver.ko
+radio-i2c-rtc6226-qca.ko
 qcom-pon.ko
 qti_battery_charger_main_m81.ko
-xm_power.ko
 qcom-spmi-temp-alarm.ko
 qti-adc-tm.ko
 qti_qmi_sensor_v2.ko
