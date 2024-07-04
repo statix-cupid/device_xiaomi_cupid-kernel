@@ -4,7 +4,6 @@ softdep q6_notifier_dlkm pre: qcom_q6v5_pas
 softdep msm_video pre: subsys-pil-tz msm-mmrm
 softdep msm_kgsl pre: arm_smmu nvmem_qfprom
 softdep qmi_helpers pre: qrtr
-softdep spcom pre: spss_utils
 softdep msm_eva pre: msm-mmrm
 softdep phy_msm_snps_eusb2 pre: repeater-i2c-eusb2
 softdep plh_scmi pre: plh_vendor
@@ -17,4 +16,3 @@ softdep ipam pre: subsys-pil-tz
 softdep ipam pre: qcom-arm-smmu-mod
 softdep leds_qti_tri_led pre: pwm-qti-lpg
 softdep gplaf_scmi pre: gplaf_vendor
-softdep spss_utils pre: qcom_spss
