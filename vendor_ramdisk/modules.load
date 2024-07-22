@@ -23,9 +23,7 @@ crypto-qti-common.ko
 crypto-qti-hwkm.ko
 dcvs_fp.ko
 debug-regulator.ko
-dispcc-diwali.ko
 dispcc-waipio.ko
-gcc-diwali.ko
 gdsc-regulator.ko
 gh_arm_drv.ko
 gh_ctrl.ko
@@ -52,10 +50,8 @@ nvmem_qcom-spmi-sdam.ko
 phy-generic.ko
 phy-qcom-ufs.ko
 phy-qcom-ufs-qmp-v4-waipio.ko
-phy-qcom-ufs-qmp-v4-diwali.ko
 phy-qcom-ufs-qmp-v4-cape.ko
 pinctrl-cape.ko
-pinctrl-diwali.ko
 pinctrl-msm.ko
 proxy-consumer.ko
 qcom-dcvs.ko
@@ -74,7 +70,6 @@ qcom-reboot-reason.ko
 qcom_rpmh.ko
 qcom-scm.ko
 qcom_wdt_core.ko
-qnoc-diwali.ko
 qnoc-qos.ko
 qrtr.ko
 qti-regmap-debugfs.ko
