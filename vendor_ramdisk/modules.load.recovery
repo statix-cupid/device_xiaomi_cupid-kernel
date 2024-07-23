@@ -298,7 +298,7 @@ msm_drm.ko
 msm-mmrm.ko
 goodix_fod.ko
 qcom_pm8008-regulator.ko
-qcom-hv-haptics.ko
-gt9916r.ko
+fts_touch_spi.ko
+aw8697-haptic.ko
 lzo.ko
 lzo-rle.ko
